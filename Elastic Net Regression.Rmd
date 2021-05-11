@@ -5,8 +5,10 @@ date: "5/11/2021"
 output: html_document
 ---
 
-```{r}
 #Elastic net regression at an alpha of 0.5.
+
+```{r}
+#In the below cv.glmnet function, "x" represents a matrix of percent methylation values at each site and in each sample; "y" represents a vector of chronological ages associated with each sample. 
 
 MAEs <- NULL 
 
