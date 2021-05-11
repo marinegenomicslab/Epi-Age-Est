@@ -1,0 +1,28 @@
+Number of Processors
+10
+Maximum Memory
+0
+Trimming
+no
+Assembly?
+yes
+Type_of_Assembly
+PE
+Clustering_Similarity%
+0.88
+Minimum within individual coverage level to include a read for assembly (K1)
+2
+Minimum number of individuals a read must be present in to include for assembly (K2)
+1
+Mapping_Reads?
+no
+Mapping_Match_Value
+1
+Mapping_MisMatch_Value
+3
+Mapping_GapOpen_Penalty
+5
+Calling_SNPs?
+no
+Email
+dweber@islander.tamucc.edu
