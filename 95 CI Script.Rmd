@@ -9,8 +9,6 @@ output: html_document
 #Calculating 95% confidence intervals on every CpG site in every sample
 
 confintervals <- data.frame(snapper$RADMeth)
-save(confintervals, file="/home/nweber/RSN_bsRAD/CombinedLibs/confintervals")
-load("confintervals")
 
 confintervals[is.na(confintervals)] <- 0
 
@@ -43,6 +41,4 @@ for(s in sample){
     confintervals[i, which(paste0(s, '_upr') == colnames(confintervals))] <- tmp_out[2]
   }
 }
-
-save(confintervals, file="/home/nweber/RSN_bsRAD/CombinedLibs/confintervals_complete")
 ```
