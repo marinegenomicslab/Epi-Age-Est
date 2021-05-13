@@ -8,3 +8,5 @@ Extended methods and associated code can be found in:
 - "95 CI Script" contains the code necessary to calculate 95% confidence intervals.
 - "Elastic Net Regression" contains the code necessary to run the elastic net regression.
 - "assem_config.file" contains the code and parameters used to create a de novo reference genome for red grouper.
+- "rsn_percent_wide.csv" contains the matrix of percent methylation values necessary to recreate the elastic net regression results for red snapper.
+- "rdg_percent_wide.csv" contains the matrix of percent methylation values necessary to recreate the elastic net regression results for red grouper.
