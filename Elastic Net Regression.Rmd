@@ -8,7 +8,14 @@ output: html_document
 #Elastic net regression at an alpha of 0.5.
 
 ```{r}
-#In the below cv.glmnet function, "x" represents a matrix of percent methylation values at each site and in each sample; "y" represents a vector of chronological ages associated with each sample. 
+#In the below cv.glmnet function, "x" represents a matrix of percent methylation values at each site and in each sample; "y" represents a vector of chronological ages associated with each sample. In order to recreate the results presented in the study, use the below "x's" and "y's" for each respective species.
+
+#For red snapper:
+x <- as.matrix(rsn_percent_wide[,-1795])
+y <- rsn_percent_wide$Age
+#For red grouper:
+x <- as.matrix(rsn_percent_wide[,-2177])
+y <- rsn_percent_wide$Age
 
 MAEs <- NULL 
 
