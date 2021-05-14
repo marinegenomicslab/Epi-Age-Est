@@ -5,10 +5,12 @@ date: "5/11/2021"
 output: html_document
 ---
 
-```{r}
 #Calculating 95% confidence intervals on every CpG site in every sample
 
-confintervals <- data.frame(snapper$RADMeth)
+```{r}
+#Both the "rsn_fulldata.csv" and "rdg_fulldata.csv" files can be used to run the following code to calculate 95% confidence intervals in red snapper and red grouper, respectively. The below code is scripted to run on the red snapper samples.
+
+confintervals <- read.csv("rsn_fulldata.csv") #The first column inserted by default when reading in the .csv file ("x") may need to be removed before running the below script. In addition, the "Loc" column should be set as the rownames.
 
 confintervals[is.na(confintervals)] <- 0
 
