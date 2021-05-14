@@ -3,8 +3,8 @@
 Data and scripts/code associated with "Novel epigenetic age estimation in wild-caught northern Gulf of Mexico reef fishes" D. Nick Weber, Andrew T. Fields, William F. Patterson III, Beverly K. Barnett, Christopher M. Hollenbeck, and David S. Portnoy. In prep.
 
 ## Associated data can be found in the "Data" folder, incuding:
-- "rsn_fulldata.csv" contains all raw CpG loci and the associated methylated/unmethylated read counts for each site in each red snapper individual.
-- "rdg_fulldata.csv" contains all raw CpG loci and the associated methylated/unmethylated read counts for each site in each red grouper individual.
+- "rsn_fulldata.csv" contains all raw CpG loci and the associated methylated and total read counts for each site in each red snapper individual.
+- "rdg_fulldata.csv" contains all raw CpG loci and the associated methylated and total read counts for each site in each red grouper individual.
 - "rsn_percent_wide.csv" contains the matrix of percent methylation values (post all filtering steps) necessary to recreate the elastic net regression results for red snapper.
 - "rdg_percent_wide.csv" contains the matrix of percent methylation values (post all filtering steps) necessary to recreate the elastic net regression results for red grouper.
 
