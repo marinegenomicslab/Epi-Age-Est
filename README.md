@@ -8,7 +8,7 @@ Associated data can be found in the "Data" folder, incuding:
 - "rsn_percent_wide.csv" contains the matrix of percent methylation values (post all filtering steps) necessary to recreate the elastic net regression results for red snapper.
 - "rdg_percent_wide.csv" contains the matrix of percent methylation values (post all filtering steps) necessary to recreate the elastic net regression results for red grouper.
 
-Associated code can be found in:
+Associated code can be found in the "Scripts" folder, including:
 
 - "BAYES_GLM.r" contains code associated with the Bayesian GLM run with 4,000 warm-up/sampling iterations.
 - "BAYES_GLM_50k.r" contains code associated with the Bayesian GLM run with 50,000 warm-up/sampling iterations.
