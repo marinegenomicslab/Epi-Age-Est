@@ -10,7 +10,7 @@ Data and scripts/code associated with "Novel epigenetic age estimation in wild-c
 
 ## Associated code can be found in the "Scripts" folder, including:
 
-- "assem_config.file" contains the code and parameters used to create a de novo reference genome for red grouper.
+- "assem_config.file" contains the code and parameters used to create a *de novo* reference genome for red grouper.
 - "BAYES_GLM.r" contains code associated with the Bayesian GLM run with 4,000 warm-up/sampling iterations.
 - "BAYES_GLM_50k.r" contains code associated with the Bayesian GLM run with 50,000 warm-up/sampling iterations.
 - "95% Confidence Intervals.Rmd" contains the code necessary to calculate 95% confidence intervals.
