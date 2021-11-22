@@ -1,6 +1,6 @@
 # Weber et al. 2021
 
-Data and scripts/code associated with "Novel epigenetic age estimation in wild-caught northern Gulf of Mexico reef fishes" D. Nick Weber, Andrew T. Fields, William F. Patterson III, Beverly K. Barnett, Christopher M. Hollenbeck, and David S. Portnoy. doi:10.1139/cjfas-2021-0240
+Data and scripts/code associated with "Novel epigenetic age estimation in wild-caught Gulf of Mexico reef fishes" D. Nick Weber, Andrew T. Fields, William F. Patterson III, Beverly K. Barnett, Christopher M. Hollenbeck, and David S. Portnoy. doi:10.1139/cjfas-2021-0240
 
 ## Associated data can be found in the "Data" folder, incuding:
 - "rsn_fulldata" is an R object which contains all raw CpG sites and the associated methylated and total read counts for each site in each red snapper individual.
