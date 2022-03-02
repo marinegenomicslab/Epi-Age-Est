@@ -1,4 +1,4 @@
-# Weber et al. 2021
+# Weber et al. 2022
 
 Data and scripts/code associated with "Novel epigenetic age estimation in wild-caught Gulf of Mexico reef fishes" D. Nick Weber, Andrew T. Fields, William F. Patterson III, Beverly K. Barnett, Christopher M. Hollenbeck, and David S. Portnoy. doi:10.1139/cjfas-2021-0240
 
